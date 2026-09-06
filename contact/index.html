@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Lane BB — Let's Build, Connect and Deliver</title>
+<meta name="description" content="Request a quotation from Lane BB for Information Technology, Civil Works &amp; Construction, Event Equipment Hire or Logistics. Johannesburg, Gauteng.">
+<link rel="icon" href="../assets/img/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="topbar">
+    <div class="container">
+      <span>Johannesburg, Gauteng · B-BBEE Level 1 Contributor</span>
+      <a href="../contact/">Request a Quotation →</a>
+    </div>
+  </div>
+  <div class="nav-wrap">
+    <a class="brand" href="../"><img src="../assets/img/logo.jpg" alt="Lane BB — Lane BrandsBridge Group"></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav class="main-nav">
+      <ul>
+        <li><a class="nav-link" href="../">Home</a></li>
+        <li class="has-dropdown">
+          <a class="nav-link" href="#">Divisions ▾</a>
+          <div class="dropdown">
+            <a href="../it/">Information Technology<small>Software, CRM, automation</small></a>
+            <a href="../civil-works/">Civil Works &amp; Construction<small>Building, renovations, site works</small></a>
+            <a href="../events/">Event Equipment Hire<small>Stage, sound, technical support</small></a>
+            <a href="../logistics/">Logistics<small>Transport, delivery, coordination</small></a>
+            <a href="../marketing-branding/">Marketing &amp; Branding<small>Brand, POS, signage, custom furniture</small></a>
+            <div class="dropdown-divider"></div>
+            <a href="../all-services/" class="dropdown-all">View All Services →</a>
+          </div>
+        </li>
+        <li><a class="nav-link" href="../about/">About</a></li>
+        <li><a class="nav-link" href="../government/">Government &amp; Corporate</a></li>
+        <li><a class="nav-link" href="../faq/">FAQ</a></li>
+        <li><a class="nav-link active" href="../contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="../contact/">Request a Quotation</a>
+      <label class="hamburger" for="nav-toggle"><span></span><span></span><span></span></label>
+    </div>
+  </div>
+</header>
+
+<section class="banner">
+  <div class="container">
+    <span class="eyebrow on-dark">Contact Us</span>
+    <h1 class="display" style="font-size:clamp(1.9rem,3vw,2.6rem);">Let's build, connect and deliver</h1>
+    <p class="mt-0" style="max-width:60ch;">Whether you need a digital solution, construction support, event equipment or coordinated logistics, Lane BB is ready to discuss your requirements.</p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="split" style="align-items:flex-start; grid-template-columns: 1.4fr .85fr;">
+
+      <div class="form-panel">
+        <h2 class="section-title" style="font-size:1.4rem;">Website Contact Form</h2>
+        <p style="margin-bottom:24px;">To help us prepare an accurate quotation, please include as much detail as you can — service required, location, dates and any tender reference.</p>
+
+        <form class="form-grid" name="enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="enquiry-form">
+          <input type="hidden" name="form-name" value="enquiry">
+          <p class="hint" style="display:none;">
+            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+          </p>
+          <div class="field">
+            <label for="fullname">Full name</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </div>
+          <div class="field">
+            <label for="company">Company or organisation</label>
+            <input type="text" id="company" name="company">
+          </div>
+          <div class="field">
+            <label for="phone">Telephone number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="service">Service required</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option>Information Technology</option>
+              <option>Civil Works and Construction</option>
+              <option>Event Equipment Hire</option>
+              <option>Logistics</option>
+              <option>Integrated Project Solution</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="location">Project location</label>
+            <input type="text" id="location" name="location">
+          </div>
+          <div class="field">
+            <label for="date">Required delivery date</label>
+            <input type="date" id="date" name="date">
+          </div>
+          <div class="field">
+            <label for="reference">Tender or reference number</label>
+            <input type="text" id="reference" name="reference">
+          </div>
+          <div class="field full">
+            <label for="description">Project description</label>
+            <textarea id="description" name="description" placeholder="Scope of work, quantities or equipment requirements, and any relevant specifications."></textarea>
+          </div>
+          <div class="field full" id="documents">
+            <label for="documents-upload">Upload supporting documents</label>
+            <input type="file" id="documents-upload" name="documents" multiple>
+            <span class="hint">Tender documents, drawings, site photos or specifications.</span>
+          </div>
+          <div class="field full">
+            <label>Preferred method of contact</label>
+            <div class="radio-row">
+              <label><input type="radio" name="preferred" value="Email" checked> Email</label>
+              <label><input type="radio" name="preferred" value="Telephone"> Telephone</label>
+              <label><input type="radio" name="preferred" value="WhatsApp"> WhatsApp</label>
+            </div>
+          </div>
+          <div class="field full">
+            <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+            <p class="hint" style="margin-top:14px;">Enquiries submitted here are delivered straight to Netlify Forms — check the Forms tab in your Netlify site dashboard, or connect email notifications there so submissions land in your inbox.</p>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <div class="sidebar-card">
+          <h3>What to include</h3>
+          <ul class="checklist">
+            <li>The service required</li>
+            <li>Project or event location</li>
+            <li>Required completion or event date</li>
+            <li>Scope of work</li>
+            <li>Quantities or equipment requirements</li>
+            <li>Relevant specifications</li>
+            <li>Supporting documents or tender reference number</li>
+          </ul>
+          <div class="contact-line">
+            <strong>Telephone</strong>
+            <span class="placeholder-note">to be confirmed</span>
+          </div>
+          <div class="contact-line" style="border-top:none; padding-top:0; margin-top:12px;">
+            <strong>Email</strong>
+            <span class="placeholder-note">to be confirmed</span>
+          </div>
+          <div class="contact-line" style="border-top:none; padding-top:0; margin-top:12px;">
+            <strong>Location</strong>
+            Johannesburg, Gauteng
+          </div>
+          <div class="contact-line" style="border-top:none; padding-top:0; margin-top:12px;">
+            <strong>Operating Hours</strong>
+            <span class="placeholder-note">to be confirmed</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="wordmark">LANE<span>BB</span></div>
+        <div class="tagline">Connected Capability. Reliable Delivery.</div>
+        <p>Lane BrandsBridge — a Johannesburg-based multidisciplinary company connecting technology, infrastructure, events, logistics and branding for government, municipal and private-sector clients.</p>
+      </div>
+      <div>
+        <h4>Divisions</h4>
+        <ul>
+          <li><a href="../it/">Information Technology</a></li>
+          <li><a href="../civil-works/">Civil Works &amp; Construction</a></li>
+          <li><a href="../events/">Event Equipment Hire</a></li>
+          <li><a href="../logistics/">Logistics</a></li>
+          <li><a href="../marketing-branding/">Marketing &amp; Branding</a></li>
+          <li><a href="../all-services/">All Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="../about/">About Lane BB</a></li>
+          <li><a href="../government/">Government &amp; Corporate</a></li>
+          <li><a href="../faq/">FAQ</a></li>
+          <li><a href="../contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get In Touch</h4>
+        <ul>
+          <li>Johannesburg, Gauteng</li>
+          <li class="placeholder-note">Telephone: to be confirmed</li>
+          <li class="placeholder-note">Email: to be confirmed</li>
+        </ul>
+        <a class="btn btn-outline-light" href="../contact/" style="margin-top:6px;">Request a Quotation</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Lane BB (Lane BrandsBridge). All rights reserved.</span>
+      <span class="badge">B-BBEE Level 1 · 135% Recognition</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
