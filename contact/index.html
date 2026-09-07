@@ -66,10 +66,10 @@
         <h2 class="section-title" style="font-size:1.4rem;">Website Contact Form</h2>
         <p style="margin-bottom:24px;">To help us prepare an accurate quotation, please include as much detail as you can — service required, location, dates and any tender reference.</p>
 
-        <form class="form-grid" name="enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="enquiry-form">
-          <input type="hidden" name="form-name" value="enquiry">
+        <form class="form-grid" action="https://formspree.io/f/mzebjkge" method="POST" id="enquiry-form">
+          <input type="hidden" name="_subject" value="New enquiry from Lane BB website">
           <p class="hint" style="display:none;">
-            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+            <label>Don't fill this out if you're human: <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
           </p>
           <div class="field">
             <label for="fullname">Full name</label>
@@ -129,7 +129,7 @@
           </div>
           <div class="field full">
             <button type="submit" class="btn btn-primary">Submit Enquiry</button>
-            <p class="hint" style="margin-top:14px;">Enquiries submitted here are delivered straight to Netlify Forms — check the Forms tab in your Netlify site dashboard, or connect email notifications there so submissions land in your inbox.</p>
+            <p class="hint" style="margin-top:14px;">Enquiries submitted here are delivered straight to info@lanebb.co.za.</p>
           </div>
         </form>
       </div>
