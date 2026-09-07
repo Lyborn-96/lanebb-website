@@ -394,3 +394,28 @@ section.tight{ padding: 56px 0; }
 .center{ text-align:center; margin-left:auto; margin-right:auto; }
 .mt-0{ margin-top:0; }
 .narrow{ max-width: 760px; }
+
+/* ---------- WhatsApp floating button ---------- */
+.whatsapp-float{
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 999;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,.25);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.whatsapp-float:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.3);
+}
+.whatsapp-float svg{ width: 30px; height: 30px; display:block; }
+.contact-line .whatsapp-link{
+  display:inline-flex; align-items:center; font-weight:600; color:#128C7E;
+}
